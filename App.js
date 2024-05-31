@@ -1,16 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './Login';  
-import WorkoutForm from './WorkoutForm';  
-import WorkoutList from './WorkoutList';  
+import Dashboard from './Dashboard';  
 
 const App = () => {
     return (
         <Router>
             <Routes>
                 <Route path="/Login" element={<Login />} />
-                <Route path="/WorkoutForm" element={<WorkoutForm />} />
-                <Route path="/WorkoutList" element={<WorkoutList />} />
+                <Route path="/Dashboard" element={<Dashboard />} />
+             
 
             </Routes>
         </Router>
